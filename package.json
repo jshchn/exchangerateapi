@@ -4,7 +4,8 @@
   "description": "A Jokes REST API built with JavaScript, Node.js, and Express.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./index.js"
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
   },
   "keywords": [],
   "author": "Steve Buchanan (@buchatech)",
