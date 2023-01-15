@@ -1,5 +1,5 @@
 {
-  "name": "Jokes REST API",
+  "name": "jokesrestapi",
   "version": "1.0.0",
   "description": "A Jokes REST API built with JavaScript, Node.js, and Express.",
   "main": "index.js",
