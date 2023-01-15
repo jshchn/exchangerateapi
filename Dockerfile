@@ -8,5 +8,8 @@ COPY package.json .
 RUN npm install
 COPY . .
 
-CMD ["npm", "start"]
+#CMD ["npm", "start"]
+CMD ["node index.js"]
 #
+# https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
+# https://docker-handbook.farhan.dev/containerizing-a-javascript-application
