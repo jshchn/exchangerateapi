@@ -10,6 +10,4 @@ COPY . .
 
 CMD ["npm", "start"]
 #CMD ["npm", "dev"]
-#
-# https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
-# https://docker-handbook.farhan.dev/containerizing-a-javascript-application
+
