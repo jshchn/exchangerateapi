@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: exchange-wf
+  labels:
+    app: exchange-wf
+  namespace: exchange-ns
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: exchange-wf
+  template:
+    metadata:
+      labels:
+        app: exchange-wf
+    spec:
+      containers:
+        - name: exchange-wf
+          image: acrwebappbnmpoc.azurecr.io/image-exchange-1710989737637:latest
+          ports:
+            - containerPort: 3000
